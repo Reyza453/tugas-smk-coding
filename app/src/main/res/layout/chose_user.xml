@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorIndigo">
+
+    <ImageView
+        android:id="@+id/img_user"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_user_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_user"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="0dp"
+        android:text="User"
+        android:textColor="@color/colorGolden"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_driver_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_user"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/colorGolden"
+        android:text="driver"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/tv_user_judul" />
+    <TextView
+        android:id="@+id/tv_detail_user"
+        android:layout_marginLeft="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_judul"
+        android:text="User adalah pengguna dari aplikasi GETGO
+yang dapat memesan transportasi online
+baik(Becakku,MikroletKu,
+maupun Bisku)"
+        android:textColor="@color/colorGolden"
+        android:minLines="4"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tv_driver_detail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_driver_judul"
+        android:text="Driver adalah orang yang bertugas
+melayani dan mengemudikan kendaraan
+bagi User"
+        android:minLines="4"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/tv_detail_user"
+       android:textColor="@color/colorGolden"
+        />
+    <Button
+        android:textColor="@color/colorGolden"
+        android:backgroundTint="@color/colorIndigo"
+        android:id="@+id/btn_daftar_user"
+        android:layout_below="@id/tv_detail_user"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="@color/colorWhite"
+        android:text="Daftar"/>
+
+    <Button
+        android:id="@+id/btn_driver"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_driver_detail"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/colorGolden"
+        android:backgroundTint="@color/colorIndigo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/btn_daftar_user"
+        android:background="@color/colorWhite"
+        android:text="Daftar" />
+
+    <ImageView
+        android:id="@+id/img_driver"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toEndOf="@id/img_user"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="30dp"/>
+
+
+</RelativeLayout>
