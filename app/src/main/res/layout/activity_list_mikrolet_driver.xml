@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".list_mikrolet_driver">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_judul_mikrolet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Pilihan Daftar Mikrolet"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_img_info1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/tv_judul_mikrolet"
+            android:layout_marginLeft="111dp"
+            android:layout_marginTop="52dp"
+            android:layout_toRightOf="@id/tv_mikrolet1"
+            android:background="@color/colorWhite"
+            android:src="@drawable/info" />
+
+        <ImageButton
+            android:id="@+id/btn_img_kembali"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:src="@drawable/kembali" />
+
+        <ImageView
+            android:id="@+id/img_mikrolet_perak1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_judul_mikrolet"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_directions_bus_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_mikrolet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_judul_mikrolet"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="62dp"
+            android:layout_toRightOf="@id/img_mikrolet_perak1"
+            android:text="Mikrolet 1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+        <ImageButton
+            android:id="@+id/btn_img_kirim1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_judul_mikrolet"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="49dp"
+            android:layout_toRightOf="@id/btn_img_info1"
+            android:background="@color/colorWhite"
+            android:src="@drawable/kirim" />
+
+        <ImageView
+            android:id="@+id/img_mikrolet_perak2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/img_mikrolet_perak1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_directions_bus_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_mikrolet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mikrolet1"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@id/img_mikrolet_perak1"
+            android:text="Mikrolet 2"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/btn_img_kirim2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn_img_kirim1"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="49dp"
+            android:layout_toRightOf="@id/btn_img_info1"
+            android:background="@color/colorWhite"
+            android:src="@drawable/kirim" />
+
+        <ImageButton
+            android:id="@+id/btn_img_info2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/btn_img_info1"
+            android:layout_marginLeft="111dp"
+            android:layout_marginTop="52dp"
+            android:layout_toRightOf="@id/tv_mikrolet1"
+            android:background="@color/colorWhite"
+            android:src="@drawable/info" />
+
+        <ImageView
+            android:id="@+id/img_mikrolet_perak3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/img_mikrolet_perak2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_directions_bus_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_mikrolet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mikrolet2"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="76dp"
+            android:layout_toRightOf="@id/img_mikrolet_perak1"
+            android:text="Mikrolet 3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_img_info3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/btn_img_info2"
+            android:layout_marginLeft="111dp"
+            android:layout_marginTop="52dp"
+            android:layout_toRightOf="@id/tv_mikrolet1"
+            android:background="@color/colorWhite"
+            android:src="@drawable/info" />
+        <ImageButton
+            android:id="@+id/btn_img_kirim3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn_img_kirim2"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="49dp"
+            android:layout_toRightOf="@id/btn_img_info1"
+            android:background="@color/colorWhite"
+            android:src="@drawable/kirim" />
+
+        <ImageView
+            android:id="@+id/img_mikrolet_perak4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/img_mikrolet_perak3"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_directions_bus_black_24dp" />
+
+        <TextView
+            android:id="@+id/tv_mikrolet4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mikrolet3"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="76dp"
+            android:layout_toRightOf="@id/img_mikrolet_perak1"
+            android:text="Mikrolet 4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btn_img_info4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@id/btn_img_info3"
+            android:layout_marginLeft="111dp"
+            android:layout_marginTop="52dp"
+            android:layout_toRightOf="@id/tv_mikrolet1"
+            android:background="@color/colorWhite"
+            android:src="@drawable/info" />
+        <ImageButton
+            android:id="@+id/btn_img_kirim4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn_img_kirim3"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="49dp"
+            android:layout_toRightOf="@id/btn_img_info1"
+            android:background="@color/colorWhite"
+            android:src="@drawable/kirim" />
+
+        <ImageView
+            android:id="@+id/img_awan"
+            android:layout_below="@id/tv_mikrolet4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/awan"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_awan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-18dp"
+            android:minLines="3"
+            android:text="Maaf Untuk Kenyamanan Anda
+Aplikasi Akan diKembangkan Lagi"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

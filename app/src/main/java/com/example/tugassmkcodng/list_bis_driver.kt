@@ -27,5 +27,9 @@ class list_bis_driver : AppCompatActivity() {
             val Intent4=Intent(this,list_showmap_bus_driver::class.java)
             startActivity(Intent4)
         })
+        btn_img_kembali_bus.setOnClickListener({
+            val Intent5=Intent(this,driver::class.java)
+            startActivity(Intent5)
+        })
     }
 }

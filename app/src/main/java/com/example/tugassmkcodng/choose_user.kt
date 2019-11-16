@@ -19,6 +19,10 @@ class choose_user : AppCompatActivity() {
             val Intent=Intent(this,driver::class.java)
             startActivity(Intent)
         })
+        btn_user.setOnClickListener({
+            val Intent2=Intent(this,User::class.java)
+            startActivity(Intent2)
+        })
 
 
     }
